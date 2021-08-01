@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.general{
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+div.heading{
+    padding: 6px;
+    text-align: right;
+    
+}
+
+
+
+a.picture{
+    
+    padding: 0px 24px;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);;
+    font-family: arial,sans-serif;
+}
+a.Gm{
+    color: rgba(0,0,0,0.87);;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+}
+a.Gm:hover {
+    text-decoration: underline;
+}
+a.picture:hover{
+    text-decoration: underline;
+}
+a.sign-in{
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0px 8px;
+    padding: 9px 23px;
+    color: white;
+    background: #1a73e8;
+    
+}
+a.sign-in:hover{
+    background: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
+}
+div.gg-im{
+    text-align: center;
+    margin: 5px 0px;
+}
+div.conten{
+    padding: 20px;
+}
+form{
+    text-align: center;
+}
+input.serch{
+    height: 44px;
+    width: 54%;
+    border-radius: 10px;
+}
+i.ti-search{
+    position: absolute;
+    left: 25%;
+    top: 30%;
+}
+i.ti-microphone{
+    position: absolute;
+    right: 25%;
+    top: 30%;
+}
+div.ip{
+    padding-top: 18px;
+    text-align: center;
+}
+a.gg-sr{
+    display: inline-block;
+    text-decoration: none;
+    margin: 0px 2px;
+    padding: 9px 23px;
+    color: black;
+    background: #f8f9fa;
+    border-radius: 3px;
+}
+a.page-one{
+    display: inline-block;
+    text-decoration: none;
+    margin: 0px 2px;
+    padding: 9px 23px;
+    color: black;
+    background: #f8f9fa;
+    border-radius: 3px;
+}
+a.gg-sr:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+a.page-one:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+div.laguage{
+    text-align: center;
+    padding: 20px;
+}
+a{
+    padding-right: 5px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+div.footer{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+}
+div.coutry{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    background: #f8f9fa;
+}
+
+
+
+div.about{
+    padding: 15px 30px;
+    font-size: 15px;
+    background: #f8f9fa;
+    text-decoration: none;
+}
+.about > a{
+    padding-right: 15px;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    text-decoration: none;
+}
+.about > a:hover {
+    text-decoration: underline;
+}
